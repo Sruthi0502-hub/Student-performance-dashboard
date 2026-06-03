@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🎓 Student Performance Dashboard</h1>
+            <p>Performance Analytics Overview</p>
+        </header>
+
+        <!-- KPI Cards -->
+        <section class="cards">
+
+            <div class="card">
+                <h3>Total Students</h3>
+                <p id="totalStudents">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Average Marks</h3>
+                <p id="averageMarks">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Highest Score</h3>
+                <p id="highestScore">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Lowest Score</h3>
+                <p id="lowestScore">0</p>
+            </div>
+
+        </section>
+
+        <!-- Bonus Section -->
+        <section class="summary">
+
+            <h2>Performance Summary</h2>
+
+            <div class="summary-box">
+                <p id="topStudent"></p>
+                <p id="bottomStudent"></p>
+            </div>
+
+        </section>
+
+        <!-- Charts -->
+        <section class="charts">
+
+            <div class="chart-card">
+                <canvas id="marksChart"></canvas>
+            </div>
+
+            <div class="chart-card">
+                <canvas id="performancePieChart"></canvas>
+            </div>
+
+        </section>
+
+        <!-- Student Table -->
+        <section class="table-section">
+
+            <h2>Student Records</h2>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Marks</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="studentTable"></tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

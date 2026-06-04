@@ -85,5 +85,81 @@ Through this task, I gained hands-on experience in:
 * Dashboard design principles
 
 ### Status
+# Day 2 Progress Update – Student Performance Dashboard
+
+## Enhancements Implemented
+
+### 1. Search Functionality
+
+* Added a search box above the student table.
+* Users can search for students by name.
+* The table updates dynamically as the user types.
+
+### 2. Filter Functionality
+
+* Added a grade filter dropdown.
+* Users can filter students based on:
+
+  * Grade A
+  * Grade B
+  * Grade C
+  * All Grades
+* Filtering is performed dynamically using JavaScript.
+
+### 3. Sorting Functionality
+
+* Added sorting options for student marks.
+* Users can sort marks:
+
+  * Ascending Order (Lowest to Highest)
+  * Descending Order (Highest to Lowest)
+
+### 4. Additional Data Visualization
+
+* Added a Line Chart using Chart.js.
+* The line chart visualizes student performance trends and complements the existing Bar Chart and Doughnut Chart.
+
+### 5. UI Improvements
+
+* Improved responsiveness for mobile and tablet devices.
+* Added a cleaner layout with better spacing and alignment.
+* Added hover effects on dashboard cards.
+* Enhanced table appearance and control section styling.
+* Used a modern gradient background for better visual appeal.
+
+## Concepts Learned
+
+Through these enhancements, I learned:
+
+* DOM Manipulation using JavaScript
+* Event Handling (keyup, change, click events)
+* Array Methods:
+
+  * filter()
+  * sort()
+  * map()
+  * reduce()
+* Dynamic Table Rendering
+* Chart.js Visualization Techniques
+* Responsive Web Design using CSS Grid and Media Queries
+
+## Challenges Faced
+
+* Managing table updates after applying search, filter, and sorting simultaneously.
+* Ensuring charts and controls remain responsive across different screen sizes.
+* Maintaining clean code while adding multiple interactive features.
+
+## Current Status
+
+All requested Day 2 enhancements have been implemented:
+
+* Search Functionality ✅
+* Filter Functionality ✅
+* Sorting by Marks ✅
+* Additional Chart ✅
+* Improved Responsive UI ✅
+
+The dashboard is functional, responsive, and provides better user interaction compared to the initial version.
+
 
 Day 1 requirements successfully completed and tested.
